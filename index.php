@@ -1,5 +1,6 @@
 <?php
-
+$testo = 'Ciao, stampami qui';
+$lunghezza_testo = strlen($testo);
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +12,17 @@
     <title>php-Badwords</title>
 </head>
 <body>
-    
+    <h2>
+        Qui il testo da stampare:
+    </h2>
+    <p>
+        <?php echo $testo ?>
+    </p>
+    <h2>
+        Qui la lunghezza del testo stampato:
+    </h2>
+    <p>
+        <?php echo $lunghezza_testo ?>
+    </p>
 </body>
 </html>
